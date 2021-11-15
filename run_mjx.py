@@ -2,6 +2,7 @@ import sys
 import mjx
 from mjx.agent import RandomAgent
 
+
 N = int(sys.argv[1])
 
 agents = {
