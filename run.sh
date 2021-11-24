@@ -1,5 +1,5 @@
 N=100
-M=10
+M=5
 
 for agent_type in "tsumogiri" "shanten"; do
     echo "====================================="

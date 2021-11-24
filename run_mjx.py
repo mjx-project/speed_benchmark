@@ -7,7 +7,6 @@ N = int(sys.argv[1])
 agent_type = sys.argv[2]
 
 if agent_type == "tsumogiri":
-    print("mjx.TsumogiriAgent", flush=True)
     agents = {
         "player_0": TsumogiriAgent(),
         "player_1": TsumogiriAgent(),
@@ -15,7 +14,6 @@ if agent_type == "tsumogiri":
         "player_3": TsumogiriAgent(),
     }
 else:
-    print("mjx.ShantenAgent", flush=True)
     agents = {
         "player_0": ShantenAgent(),
         "player_1": ShantenAgent(),
