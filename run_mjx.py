@@ -1,16 +1,28 @@
 import sys
 import mjx
-from mjx.agent import RandomAgent
+from mjx.agent import TsumogiriAgent, ShantenAgent
 
 
 N = int(sys.argv[1])
+agent_type = sys.argv[2]
 
-agents = {
-    "player_0": RandomAgent(),
-    "player_1": RandomAgent(),
-    "player_2": RandomAgent(),
-    "player_3": RandomAgent(),
-}
+if agent_type == "tsumogiri":
+    print("mjx.TsumogiriAgent", flush=True)
+    agents = {
+        "player_0": TsumogiriAgent(),
+        "player_1": TsumogiriAgent(),
+        "player_2": TsumogiriAgent(),
+        "player_3": TsumogiriAgent(),
+    }
+else:
+    print("mjx.ShantenAgent", flush=True)
+    agents = {
+        "player_0": ShantenAgent(),
+        "player_1": ShantenAgent(),
+        "player_2": ShantenAgent(),
+        "player_3": ShantenAgent(),
+    }
+
 env = mjx.MjxEnv()
 for i in range(N):
     obs_dict = env.reset()
