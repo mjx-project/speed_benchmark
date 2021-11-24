@@ -6,4 +6,4 @@ RUN apt update -y && apt install -y build-essential libreadline-dev ruby-dev pyt
 
 RUN gem install nokogiri json bundler sass mjai
 
-RUN python3.9 -m pip install mjx
+RUN python3.9 -m pip install mjx==0.0.6
