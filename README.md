@@ -1,4 +1,4 @@
-# MJX Speed benchmark
+# Mjx Speed benchmark
 
 ## How to use
 
