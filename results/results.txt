@@ -1,0 +1,117 @@
+=====================================
+tsumogiri
+=====================================
+run #1
+mjx
+
+real    0m8.851s
+user    0m8.799s
+sys     0m0.144s
+mjai
+
+real    20m42.261s
+user    21m9.632s
+sys     0m53.289s
+run #2
+mjx
+
+real    0m8.819s
+user    0m8.791s
+sys     0m0.120s
+mjai
+
+real    20m48.440s
+user    21m16.631s
+sys     0m52.088s
+run #3
+mjx
+
+real    0m8.834s
+user    0m8.774s
+sys     0m0.152s
+mjai
+
+real    20m42.418s
+user    21m9.833s
+sys     0m52.792s
+run #4
+mjx
+
+real    0m8.960s
+user    0m8.920s
+sys     0m0.132s
+mjai
+
+real    20m39.320s
+user    21m6.464s
+sys     0m52.743s
+run #5
+mjx
+
+real    0m8.906s
+user    0m8.858s
+sys     0m0.140s
+mjai
+
+real    20m34.116s
+user    21m0.527s
+sys     0m53.371s
+=====================================
+shanten
+=====================================
+run #1
+mjx
+
+real    0m13.230s
+user    0m13.134s
+sys     0m0.188s
+mjai
+
+real    233m7.101s
+user    233m34.497s
+sys     0m51.899s
+run #2
+mjx
+
+real    0m13.687s
+user    0m13.590s
+sys     0m0.188s
+mjai
+
+real    229m58.649s
+user    230m28.427s
+sys     0m53.011s
+run #3
+mjx
+
+real    0m13.822s
+user    0m13.701s
+sys     0m0.212s
+mjai
+
+
+real    233m9.371s
+user    233m39.434s
+sys     0m53.060s
+run #4
+mjx
+
+real    0m13.811s
+user    0m13.671s
+sys     0m0.232s
+mjai
+
+real    237m22.082s
+user    237m50.447s
+sys     0m53.556s
+run #5
+mjx
+
+real    0m13.383s
+user    0m13.238s
+sys     0m0.220s
+mjai
+
+real    218m55.238s
+user    219m24.307s
+sys     0m50.887s
