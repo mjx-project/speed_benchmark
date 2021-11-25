@@ -21,6 +21,6 @@ with open(tsv, "r") as f:
         mjai.append(y)
 
 print("mjx = ", mjx)
-print(np.mean(mjx), np.std(mjx))
+print(f"{np.mean(mjx):.03f} {np.std(mjx):.03f}" )
 print("mjai = ", mjai)
-print(np.mean(mjai), np.std(mjai))
+print(f"{np.mean(mjai):.03f} {np.std(mjai):.03f}" )
