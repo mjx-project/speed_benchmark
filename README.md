@@ -4,6 +4,7 @@
 - vCPU: 2
 - mem: 8GiB
 - Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz
+- Time for 100 games (avg. of 5 runs)
 
 ![speed_benchmark](/results/speed_benchmark.png)
 
