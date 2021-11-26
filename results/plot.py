@@ -59,4 +59,5 @@ autolabel(rects2)
 fig.tight_layout()
 
 plt.savefig("speed_benchmark.pdf")
+plt.savefig("speed_benchmark.png")
 # %%
