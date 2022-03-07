@@ -6,11 +6,11 @@ import seaborn as sns
 # %%
 # sns.set()
 sns.set_style("ticks")
-# sns.set_style("white")
+sns.set_style("white")
 # sns.set_style("whitegrid")
 sns.set_context("paper", 1.9)
 
-labels = ['Pass agent', 'Rule-based agent']
+labels = ['Pass agent', 'Shanten agent']
 men_means = [8.874, 13.587]
 women_means = [1241.311, 13830.488]
 
@@ -29,7 +29,7 @@ top_side.set_visible(False)
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
 ax.set_yscale('log')
-ax.set_ylabel('log10 (sec)', fontsize=16)
+ax.set_ylabel('Running time (s)', fontsize=16)
 ax.set_yticks([10, 100, 1000, 10000, 10**5])
 # ax.set_yticklabels([10, 100, 1000, 10000])
 # ax.set_yticklabels()
