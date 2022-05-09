@@ -18,7 +18,7 @@ x = np.array([2.0, 6.0]) # np.arange(len(labels))  # the label locations
 width = 1.2 # the width of the bars
 
 fig, ax = plt.subplots()
-rects1 = ax.bar(x - width/2, men_means, width, label='Mjx (ours)')
+rects1 = ax.bar(x - width/2, men_means, width, label='Mjx (proposed)')
 rects2 = ax.bar(x + width/2, women_means, width, label='Mjai')
 
 # remove frames
